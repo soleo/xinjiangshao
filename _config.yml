@@ -1,2 +1,13 @@
 url: http://xinjiangshao.com
 name: Xinjiang's Stuff
+description: "Web Developer, App Developer, and Much More"
+meta_description: "Xinjiang is a developer works in Chicago"
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://xinjiangshao.com'
+google_analytics: 'UA-XXXXXXXX-X'
+author:         'Xinjiang Shao'

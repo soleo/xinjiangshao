@@ -1,12 +1,8 @@
-Xinjiang Shao's Stuff
+# Xinjiang Shao's Stuff
 
 http://xinjiangshao.com
-
 ===================================================
 
-This is a personal website powered by ghost and buster.
+This is a personal website powered by ghost theme and jerkll.
 
-Ghost: https://ghost.org/
-
-Buster: https://github.com/axitkhurana/buster
 

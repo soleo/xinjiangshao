@@ -1,118 +1,78 @@
+---
+layout: default
+title: Home
+cover: assets/images/cover.png
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+---
 
-    <title>Xinjiang Shao</title>
-    <meta name="description" content="Web Developer, App Developer and More. Lives in Chicago, IL">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=1a2e108b23">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
-
-    <link rel="canonical" href="http://xinjiangshao.com/">
-    
-    <meta property="og:site_name" content="Xinjiang Shao">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Xinjiang Shao">
-    <meta property="og:description" content="Web Developer, App Developer and More. Lives in Chicago, IL">
-    <meta property="og:url" content="http://xinjiangshao.com/">
-    
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Xinjiang Shao">
-    <meta name="twitter:description" content="Web Developer, App Developer and More. Lives in Chicago, IL">
-    <meta name="twitter:url" content="http://xinjiangshao.com/">
-    
-    <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Website",
-    "publisher": "Xinjiang Shao",
-    "url": "http://xinjiangshao.com/",
-    "description": "Web Developer, App Developer and More. Lives in Chicago, IL"
-}
-    </script>
-
-    <meta name="generator" content="Ghost 0.6">
-    <link rel="alternate" type="application/rss+xml" title="Xinjiang Shao" href="http://xinjiangshao.com/rss/">
-</head>
-<body class="home-template nav-closed">
-
-    <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="index.html#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
-            <li class="nav-home nav-current" role="presentation"><a href="http://xinjiangshao.com/">Home</a></li>
-            <li class="nav-about-me" role="presentation"><a href="http://xinjiangshao.com/about-me/">About Me</a></li>
-    </ul>
-    <a class="subscribe-button icon-feed" href="http://xinjiangshao.com/rss/">Subscribe</a>
-</div>
-<span class="nav-cover"></span>
-
-
-    <div class="site-wrapper">
-
-        
-<header class="main-header no-cover">
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
-        
-            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Xinjiang Shao</h1>
-            <h2 class="page-description">Web Developer, App Developer and More. Lives in Chicago, IL</h2>
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %} {{ site.description }}. {% endif %}
+            </h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="index.html#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
+
 <main id="content" class="content" role="main">
-
     <div class="extra-pagination inner">
-    <nav class="pagination" role="navigation">
-    <span class="page-number">Page 1 of 1</span>
-</nav>
-</div>
-
-<article class="post tag-getting-started">
-    <header class="post-header">
-        <h2 class="post-title"><a href="welcome-to-ghost/">Welcome to Ghost</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by <a class="read-more" href="welcome-to-ghost/">»</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="http://www.gravatar.com/avatar/0580e1daf6ff09b422e6f660ad91c720?s=250&amp;d=mm&amp;r=x" alt="Xinjiang Shao" nopin="nopin">
-        <a href="author/xinjiang/">Xinjiang Shao</a>
-         on <a href="tag/getting-started/">Getting Started</a>
-        <time class="post-date" datetime="2015-08-10">10 August 2015</time>
-    </footer>
-</article>
-
-<nav class="pagination" role="navigation">
-    <span class="page-number">Page 1 of 1</span>
-</nav>
-
-</main>
-
-
-        <footer class="site-footer clearfix">
-            <section class="copyright"><a href="http://xinjiangshao.com">Xinjiang Shao</a> © 2015</section>
-            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-        </footer>
-
+        {% include pagination.html %}
     </div>
 
-    <script src="public/jquery.min.js?v=1a2e108b23"></script>
+    {% for post in paginator.posts %}
 
-    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=1a2e108b23"></script>
-    <script type="text/javascript" src="assets/js/index.js?v=1a2e108b23"></script>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+        </section>
+        <footer class="post-meta">
+            {% if site.author %}
+                <img class="author-thumb" src="/assets/images/profile.png" alt="Xinjiang's profile picture" nopin="nopin" />
+                {{ site.author }}
+            {% endif %}
+            {% if post.categories.size > 0 %} 
+                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% endif %}
+            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                {{ post.date | date_to_string }}
+            </time> 
+        </footer>
+    </article>
 
-</body>
+    <!-- Capser below -->
+<!--     <article class="{{post_class}}">
+    <header class="post-header">
+        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
+        {{author}}
+        {{tags prefix=" on "}}
+        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+    </footer>
+    </article> -->
+    <!--  -->
+
+    {% endfor %}
+
+    {% include pagination.html %}
+
+</main>
