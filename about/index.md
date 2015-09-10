@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About Me 
+title: About Xinjiang 
 ---
+
 
 Hey,
 
