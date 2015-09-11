@@ -6,7 +6,7 @@ title: About Xinjiang
 
 Hey,
 
-This is Xinjiang. I&#39;m a **full stack developer** for EXACT Sport in downtown Chicago and was an **independent freelancer**. Years of coding experiences both as a member in teams and a solo developer made me think more about **building** **products**in the eyes of final users rather than just building according to a pack of documentations from someone. I&#39;ve been working in this industry for about 4 years and still **passionate** about all kinds of new stuff. Constantly pushing myself out of my **comfort zone** is best quality I have as a human being. I&#39;m a stronger supporter for **Open Source** is doing more good than damage.&nbsp;
+This is Xinjiang. I&#39;m a **full stack developer** for EXACT Sport in downtown Chicago and was an **independent freelancer**. Years of coding experiences both as a member in teams and a solo developer made me think more about **building** **products** in the eyes of final users rather than just building according to a pack of documentations from someone. I&#39;ve been working in this industry for about 4 years and still **passionate** about all kinds of new stuff. Constantly pushing myself out of my **comfort zone** is best quality I have as a human being. I&#39;m a stronge supporter for **Open Source** is doing more good than damage.&nbsp;
 
 While I&#39;m not coding, I like **reading** as often as possible, **writing** occasionally, **drawing** randomly, **cooking** creatively, **running** regularly.
 
