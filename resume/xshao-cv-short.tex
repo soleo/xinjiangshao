@@ -8,7 +8,7 @@
 \renewcommand{\sfdefault}{ppl}
 
 % moderncv themes
-\moderncvtheme[orange]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[black]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 %\moderncvtheme[black]{classic}                % idem
 
 
@@ -52,57 +52,53 @@
 \begin{document}
 \maketitle
 
+\section{Projects}
+\cventry{2012-Present}{PrepHero}{Athletic Recruiting Service and Camp Registration Service}{}{}{
+	\begin{itemize}
+	\item Developed various of online psychological profiling applications for athletes and coaches which are also used by MLB, NHL and US Soccer prospects. The applications are responsive designed with Bootstrap framework.  
+	\item Building RESTfull API Endpoints to improve server respond time and use less memory for each request. 
+	\item Developing an iOS app for capturing and storing short athletic highlight video clips in AWS S3, and intergrate with RESTfull API endpoints. 
+	\item Migrated our service to AWS in order to serve 65k+ users, improved server response time from 3s to 400ms. 
+	\end{itemize}
+}
+\cventry{2013-Present}{Fancy Foodie}{An iOS App}{}{}{
+	\begin{itemize}
+	\item Designed whole user interface, logo and workflow solely.
+	\item Built with Objective-C and open sourced afterwards.
+	\item The app is the winner of the First Annual Competition hosted by UIC CS Department.
+	\end{itemize}
+}
+\cventry{2011}{Splayer - Subtitle Matching Branch}{A Media Player on Windows Platform}{}{}{
+	\begin{itemize}
+	\item Develop a server side application with load balancing enabled to get the distance of requsted hash and stored video hashes and responds back the most possible matched subtitle for the video
+	\item Merge with Splayer Client to be capable to calculating hash with perceptual hashing algorithms for a small clip of soundtrack in a video
+	\end{itemize}
+}
+
 \section{Experience}
-\cventry{2012-2015\newline(Four Years)}{Full Stack Developer}{EXACT Sport}{Chicago, IL}{USA}{
+\cventry{2012-Present}{Full Stack Developer}{EXACT Sport}{Chicago, IL}{USA}{
 	\begin{itemize}
 		\item Work directly with the VP of Technology and the CEO to define and lead product strategy. 
 		\item Provide input in the design process and incorporate into overall application.
 		\item Act as DevOps to build infrastructure for apps to be developed, deployed, scaled, backed up, optimized.
 	\end{itemize}
 }
-\cventry{2011-2013\newline(Two Years)}{Web Developer}{Independent Freelancer}{Chicago, IL}{USA}{
+\cventry{2011-2013}{Web Developer}{Independent Freelancer}{Chicago, IL}{USA}{
 	\begin{itemize}
 		\item Make design recommendations for clients in need of blog-like websites and CMS based on Wordpress.  
 		\item Optimize websites by various of techniques such as SEO, Images Resizing, CSS/JS minification etc. 
 		\item Review, secure and remove malware invaded websites, especially for those based on Wordpress, Zen-Cart etc.
 	\end{itemize}
 }
-\cventry{2011\newline(Six Months)}{C/C++ Developer}{Sagittarius Technology Co. Ltd. }{Shanghai}{P. R. China}{%
-\begin{itemize}%
-\item Responsible for developing acoustic fingerprinting system for Splayer in order to raise the accuracy of subtitle matching system.
-\item Cooperate with Eaget which in Shenzhen, China to test new model(M9) of HD movie player with subtitle matching enabled.
-\end{itemize}}
 
-\section{Projects}
-\cventry{2012-Present}{PrepHero}{Athletic Recruiting Service and Camp Registration Service}{}{}{
- 	\begin{itemize}
- 	\item Developed various of online psychological profiling applications for athletes and coaches which are also used by MLB, NHL and US Soccer prospects. 
- 	\item Building RESTfull API Endpoints and iOS app for capturing and storing athletic highlight video clips.  
- 	\item Migrated Our service to Amazon’s Web Service in order to get high scalability, availability, and faster
-response time.
- 	\end{itemize}
-}
-\cventry{2013-Present}{Fancy Foodie}{A Food Review App}{}{}{
- 	\begin{itemize}
- 	\item Designed whole user interface, logo and workflow solely. New logo designed by Zhechao.
- 	\item Built with Objective-C and open sourced afterwards.
- 	\item The app is the winner of the First Annual Competition hosted by UIC CS Department.
- 	\end{itemize}
-}
-\cventry{2011}{Splayer - Subtitle Matching Branch}{A Media Player on Windows Platform}{}{}{
- 	\begin{itemize}
- 	\item Develop a server side application with load balancing enabled to get the distance of requsted hash and stored video hashes and responds back the most possible matched subtitle for the video
- 	\item Merge with Splayer Client to be capable to calculating hash with perceptual hashing algorithms for a small clip of soundtrack in a video
- 	\end{itemize}
-}
 \section{Education}
 \cventry{2011--2013}{Master of Science in Computer Science}{University of Illinois at Chicago}{Chicago,USA}{\textit{}}{ }  % arguments 3 to 6 can be left empty
 \cventry{2007--2011}{Bachelor of Science in Information and Computing Science}{Dalian Polytechnic University}{Dalian, P.R.China}{\textit{}}{}
 
-\section{Skills}
+\section{Technical Skills}
 \cvcomputer{Languages}{PHP, Objective-C, JavaScript, HTML 5, Java}{}{}
 \cvcomputer{Databases}{MongoDB, MySQL, Redis}{}{}
-\cvcomputer{Others}{MVC, RESTful API, JSON, XML, AWS, Git}{}{}
+\cvcomputer{Others}{MVC, RESTful API, AWS, Git}{}{}
 
 \section{Languages}
 \cvlanguage{Chinese}{Mother Tongue}{Fluent in writing, reading, speaking}
