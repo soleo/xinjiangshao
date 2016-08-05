@@ -16,7 +16,7 @@ cover: assets/images/cover.png
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title" style="text-shadow: 0 0 2px rgba(0,0,0,.8);">{{ site.name }}</h1>
+            <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description" >
                 {% if site.description %} <a href="/about">{{ site.description }}</a>. {% endif %}
             </h2>
@@ -24,7 +24,7 @@ cover: assets/images/cover.png
                 <a href="https://github.com/soleo">
                    <i class="fa fa-github"></i>
                 </a>
-                 <a href="https://www.linkedin.com/pub/xinjiang-shao/33/b60/37">
+                 <a href="https://www.linkedin.com/in/xinjiangshao">
                    <i class="fa fa-linkedin"></i>
                 </a>
                  <a href="https://medium.com/@soleoshao">
@@ -36,6 +36,7 @@ cover: assets/images/cover.png
                 <a href="https://society6.com/xinjiangshao">
                     <i class="fa fa-paint-brush"></i>
                 </a>
+
             </div>
         </div>
     </div>
@@ -76,23 +77,6 @@ cover: assets/images/cover.png
             </time> 
         </footer>
     </article>
-
-    <!-- Capser below -->
-<!--     <article class="{{post_class}}">
-    <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
-        {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
-    </article> -->
-    <!--  -->
 
     {% endfor %}
 

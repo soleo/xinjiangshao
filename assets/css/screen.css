@@ -483,6 +483,10 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-header .inner {
     width: 80%;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.8;
 }
 
 .main-nav {
@@ -666,7 +670,7 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    color: black;
 }
 
 .page-description {

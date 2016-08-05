@@ -1,13 +1,18 @@
-url: http://xinjiangshao.com
+url: https://xinjiangshao.com
+enforce_ssl: xinjiangshao.com
 name: Xinjiang's Stuff
 description: "Web Developer, App Developer, and Much More"
 meta_description: "Xinjiang is a developer works in Chicago"
-
-markdown: redcarpet
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /
 domain_name: 'http://xinjiangshao.com'
 google_analytics: 'UA-66561519-1'
-author:         'Xinjiang Shao'
+author:         
+  twitter:
+    username: soleoshao
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
