@@ -3,7 +3,7 @@ enforce_ssl: xinjiangshao.com
 name: Xinjiang's Stuff
 description: "Web Developer, App Developer, and Much More"
 meta_description: "Xinjiang is a developer works in Chicago"
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 domain_name: 'http://xinjiangshao.com'
