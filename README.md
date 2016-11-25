@@ -1,3 +1,3 @@
 # Xinjiang Shao's Stuff
 
-http://xinjiangshao.com
+https://www.xinjiangshao.com

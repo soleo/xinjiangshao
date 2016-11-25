@@ -15,7 +15,8 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "deploy": "netlify deploy"
   },
   "dependencies": {
     "autoprefixer": "^6.3.7",
