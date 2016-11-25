@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Xinjiang's Stuff"
+metaDataFormat = "yaml"
 
 [params]
     description = "Xinjiang Shao is a Full Stack Developer in Chicago"
