@@ -1,0 +1,53 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>{{ .Site.Title }} - {{ .Site.Params.description }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta content="Development, design, and more by @soleoshao" property="og:title">
+    <meta content="Development, design, and more by @soleoshao" name="twitter:title">
+    <meta content="Development, design, and more by @soleoshao" property="og:site_name">
+    <meta content="{{ .Site.Params.description }}" name="description">
+    <meta content="{{ .Site.Params.description }}" property="og:description">
+    <meta content="{{ .Site.Params.description }}" name="twitter:description">
+    <meta content="Xinjiang Shao" name="author">
+    <link href="https://plus.google.com/u/0/+XinjiangShao/posts" rel="author">
+    <meta content="@soleoshao" name="twitter:site">
+    <meta content="@soleoshao" name="twitter:creator">
+   
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="/favicon-57x57.png">
+    <link rel="shortcut icon" sizes="196x196" href="/favicon-196x196.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/favicon-144x144-ie10.png">
+    <meta name="msapplication-square70x70logo" content="/favicon-128x128-ie11.png"/>
+    <meta name="msapplication-square150x150logo" content="/favicon-270x270-ie11.png"/>
+    <meta name="msapplication-wide310x150logo" content="/favicon-558x270-ie11.png"/>
+    <meta name="msapplication-square310x310logo" content="/favicon-558x558-ie11.png"/>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <base href="{{ .Site.BaseURL }}">
+    <link href="{{ .Permalink }}" rel="canonical">
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <meta content="website" property="og:type">
+    <meta content="summary" name="twitter:card">
+    <meta content="{{ .Permalink }}" property="og:url">
+    <meta content="{{ .Permalink }}" name="twitter:url">
+    <meta property="og:image" content="{{ .Site.BaseURL }}logo-high-resolution.png">
+    <meta name="twitter:image:src" content="{{ .Site.BaseURL }}logo-high-resolution.png">
+
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>

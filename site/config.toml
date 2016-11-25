@@ -1,0 +1,7 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Xinjiang's Stuff"
+
+[params]
+    description = "Xinjiang Shao is a Full Stack Developer in Chicago"
+    author = "Xinjiang Shao"

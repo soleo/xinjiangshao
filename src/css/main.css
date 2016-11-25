@@ -1,0 +1,9 @@
+main {
+    padding: 200px 200px 200px 200px;
+}
+
+main p {
+    font-family: Helvetica;
+    font-size: 130px;
+    text-align: center;
+}
