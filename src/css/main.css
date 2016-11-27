@@ -4,7 +4,7 @@
 }
 
 html, body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     background-color: #282a36;
     color: #eff0eb;
     font-weight: 100;
@@ -79,23 +79,51 @@ a:hover{
 }
 
 .social__links {
-
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+.social__links svg {
+    width: 3em;
+    height: auto;
+    
 }
 
-.social__link {
-
+.social__links svg:hover {
+    fill: #f3f99d;
 }
 
-.social__link icon {
-
+svg #Twitter, 
+svg #GitHub, 
+svg #Instagram, 
+svg #Medium,
+svg #LinkedIn #Rectangle-path, 
+svg #Society6 {
+    fill: #57c7ff;
 }
 
-.social__link icon-github {
-    content: "GitHub";
+svg:hover #Twitter, 
+svg:hover #GitHub, 
+svg:hover #Instagram, 
+svg:hover #Medium,
+svg:hover #LinkedIn #Rectangle-path, 
+svg:hover #Society6 {
+    transition: color 0.2s;
+    fill: #f3f99d;
 }
 
-.social__link icon-twitter {
-    content: "Twitter"
+svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
+    fill: #282a36;
+}
+
+.social__links a,.social__link a:hover,.social__link a:focus,.social__link a:active, a:visited {
+    
+    border-bottom: 0;
+    text-decoration: none;
+}
+
+.social__links a:hover {
+    border-bottom: 0;
 }
 
 .intro__nav-container ul {
@@ -104,6 +132,7 @@ a:hover{
     list-style: none;
     text-align: center;
 }
+
 .intro__nav-container ul li {
     margin-right: 1em;
     text-transform: uppercase;
@@ -130,6 +159,7 @@ a:hover{
     padding-left: 1em;
     padding-right: 1em;
 }
+
 .page p {
     padding-bottom: 1em;
 }
@@ -139,12 +169,42 @@ a:hover{
     margin-top:2.5em;
 }
 
-@media only screen and (max-width: 280px) {
-    body, p {
-        width: 95%;
-    }
+@media only screen and (max-width: 450px) {
+
     h1 {
         font-size: 1.5em;
         margin: 0 0 0.3em;
+    }
+
+    .intro .intro__description {
+        font-size: 1.5em;
+        line-height: 1.5;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+    .intro__nav-container {
+        border-top: 1px dashed;
+        padding-top: 1em;
+    }
+
+    .intro__nav-container ul li {
+        margin-right: 1em;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        padding-bottom: 1.5em;
+    }
+
+    .intro__nav-container li:after {
+        content: "";
+        padding-left: 0;
+    }
+
+    .page {
+        margin-top: 3em;
     }
 }
