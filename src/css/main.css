@@ -85,7 +85,7 @@ a:hover{
 }
 .social__links svg {
     width: 3em;
-    height: auto;
+    height: 3em;
     
 }
 
@@ -117,7 +117,6 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
 }
 
 .social__links a,.social__link a:hover,.social__link a:focus,.social__link a:active, a:visited {
-    
     border-bottom: 0;
     text-decoration: none;
 }
