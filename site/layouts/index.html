@@ -1,7 +1,48 @@
 {{ partial "header" . }}
 
-<main>
-<p>Hello, World!</p>
+<main class="flex-center full-height">
+    <section class="intro">
+        <div class="intro__headshot">
+            <img src="https://s.gravatar.com/avatar/0580e1daf6ff09b422e6f660ad91c720?s=400" alt="Headshot of Xinjiang Shao" id="profile-photo"/>
+        </div>
+
+        <p class="intro__description">Hello, World! My name is <strong>Xinjiang Shao</strong>, currently working for <a href="https://exactsports.com">EXACT Sports</a> as a Full Stack Developer, and I'm also in the team of building <a href="https://prephero.com">PrepHero</a>. </p>
+
+        <div class="social__links">
+            <a href="https://github.com/soleo" class="social__link">
+                <i class="icon icon-github"></i>
+            </a>
+            <a href="https://www.instagram.com/soleoshao" class="social__link">
+                <i class="icon icon-instagram"></i>
+            </a>
+            <a href="https://medium.com/@soleoshao" class="social__link">
+                <i class="icon icon-medium"></i>
+            </a>
+            <a href="https://twitter.com/soleoshao" class="social__link">
+                <i class="icon icon-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/xinjiangshao" class="social__link">
+                <i class="icon icon-linkedin"></i>
+            </a>
+            <a href="https://society6.com/xinjiangshao" class="social__link">
+                <i class="icon icon-society6"></i>
+            </a>
+        </div>
+
+        <nav class="intro__nav-container">
+            <ul>
+                <li>
+                    <a href="/projects">Projects</a>
+                </li>
+                <li> 
+                    <a href="https://github.com/soleo/awesome-reading">Reading List</a>
+                </li>
+                <li> 
+                    <a href="/about">Résumé</a> 
+                </li>
+            </ul>
+        </nav>
+    </section>
 </main>
 
 {{ partial "footer" . }}
