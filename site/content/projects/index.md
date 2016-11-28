@@ -8,4 +8,16 @@ categories:
 tags: ["project"]
 ---
 
-# Comining Soon
+# Projects
+
+- [App: Fancy Foodie](/projects/fancy-foodie-app)
+- [WebFont: BF Tiny Hand](/projects/bf-tiny-hand-font)
+- CLI: GMail Attachments Export Tool
+- CLI: Paycheckrecord Export Tool
+- Docker: LaTeX 
+- Shell: Dotfiles
+- Docker: DuckPan
+- DuckDuckGo: Instance Answer for Cocoapods
+- Scala: SCIM REST API Service
+- PHP: A Simple URL Shortener
+- JavaScript: redact-me, a filter to redact personal information
