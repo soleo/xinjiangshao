@@ -14,7 +14,7 @@
     "webpack": "gulp webpack",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
-    "start": "gulp server",
+    "start": "gulp server --baseURL '/' --canonifyURLs false",
     "lint": "eslint src",
     "deploy": "netlify deploy"
   },
