@@ -168,6 +168,7 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 35em;
 }
 
 .page h1 {
@@ -183,7 +184,7 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
 
 .page nav {
     padding-bottom: 1em;
-    margin-top:2.5em;
+    margin-top: 2.5em;
 }
 
 .projects ul li {
