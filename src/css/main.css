@@ -86,6 +86,12 @@ a:hover{
     margin-right: auto;
 }
 
+.intro .intro__public-communication {
+	list-style: none;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
 .social__links {
     padding-left: 2em;
     padding-right: 2em;
@@ -101,20 +107,20 @@ a:hover{
     fill: #f3f99d;
 }
 
-svg #Twitter, 
-svg #GitHub, 
-svg #Instagram, 
+svg #Twitter,
+svg #GitHub,
+svg #Instagram,
 svg #Medium,
-svg #LinkedIn #Rectangle-path, 
+svg #LinkedIn #Rectangle-path,
 svg #Society6 {
     fill: #57c7ff;
 }
 
-svg:hover #Twitter, 
-svg:hover #GitHub, 
-svg:hover #Instagram, 
+svg:hover #Twitter,
+svg:hover #GitHub,
+svg:hover #Instagram,
 svg:hover #Medium,
-svg:hover #LinkedIn #Rectangle-path, 
+svg:hover #LinkedIn #Rectangle-path,
 svg:hover #Society6 {
     transition: color 0.2s;
     fill: #f3f99d;
@@ -127,7 +133,7 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
 .social__links a,
 .social__link a:hover,
 .social__link a:focus,
-.social__link a:active, 
+.social__link a:active,
 .social__link a:visited {
     border-bottom: 0;
     text-decoration: none;
@@ -147,7 +153,7 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
 .intro__nav-container ul li {
     margin-right: 1em;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     display: inline-block;
 }
