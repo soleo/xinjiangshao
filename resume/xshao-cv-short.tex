@@ -1,67 +1,30 @@
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
-
-\documentclass[11pt,a4paper,roman]{moderncv}
+\documentclass[11pt,letterpaper]{moderncv}
 \usepackage{mathpazo}
-\renewcommand{\sfdefault}{ppl}
-
-% moderncv themes
-\moderncvtheme[black]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-%\moderncvtheme[black]{classic}                % idem
-
-
-% character encoding
-\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
-
-% adjust the page margins
+\usepackage[utf8]{inputenc}
 \usepackage[scale=0.9]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
-\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
-%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+\moderncvtheme{oldstyle}
+\moderncvcolor{grey}
+\nopagenumbers{}
 
-% personal data
-\firstname{Xinjiang}
-\familyname{Shao}
-%\title{University of Illinois at Chicago}               % optional, remove the line if not wanted
-%\address{809 S. Damen Ave.}{Chicago, IL 60612}    % optional, remove the line if not wanted
-%\extrainfo{809 S. Damen Ave.\\ Chicago,IL 60612}
-\mobile{312-694-3955}                    % optional, remove the line if not wanted
-%\phone{phone (optional)}                      % optional, remove the line if not wanted
-%\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{shaoxinjiang@gmail.com}                      % optional, remove the line if not wanted
-\homepage{xinjiangshao.com}                % optional, remove the line if not wanted
-%\extrainfo{} % optional, remove the line if not wanted
-%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+\name{Xinjiang}{Shao}
+\phone[mobile]{+1~(312)~694~3955}
+\email{shaoxinjiang@gmail.com}
+\homepage{xinjiangshao.com}
 
-% to show numerical labels in the bibliography; only useful if you make citations in your resume
-\makeatletter
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\makeatother
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-
-%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
+
 \maketitle
 
 \section{Projects}
-\cventry{2012-Present}{PrepHero}{Athletic Recruiting Service and Camp Registration Service}{}{}{
+\cventry{2012--2016}{PrepHero}{Athletic Recruiting Service and Camp Registration Service}{}{}{
 	\begin{itemize}
-	\item Developed various of online psychological profiling applications for athletes and coaches which are also used by MLB, NHL and US Soccer prospects. The applications are responsive designed with Bootstrap framework.  
-	\item Building RESTfull API Endpoints to improve server respond time and use less memory for each request. 
-	\item Developing an iOS app for capturing and storing short athletic highlight video clips in AWS S3, and intergrate with RESTfull API endpoints. 
-	\item Migrated our service to AWS in order to serve 65k+ users, improved server response time from 3s to 400ms. 
+	\item Developed various of online psychological profiling applications for athletes and coaches which are also used by MLB, NHL and US Soccer prospects. The applications are responsive designed with Bootstrap framework.
+	\item Building RESTfull API Endpoints to improve server respond time and use less memory for each request.
+	\item Developing an iOS app for capturing and storing short athletic highlight video clips in AWS S3, and intergrate with RESTfull API endpoints.
+	\item Migrated our service to AWS in order to serve 65k+ users, improved server response time from 3s to 400ms.
 	\end{itemize}
 }
-\cventry{2013-Present}{Fancy Foodie}{An iOS App}{}{}{
+\cventry{2013--Present}{Fancy Foodie}{A Food Review App}{}{}{
 	\begin{itemize}
 	\item Designed whole user interface, logo and workflow solely.
 	\item Built with Objective-C and open sourced afterwards.
@@ -76,27 +39,20 @@
 }
 
 \section{Experience}
-\cventry{2012-Present}{Full Stack Developer}{EXACT Sport}{Chicago, IL}{USA}{
+\cventry{2012--2016}{Full Stack Developer}{EXACT Sport}{Chicago, IL}{USA}{
 	\begin{itemize}
-		\item Work directly with the VP of Technology and the CEO to define and lead product strategy. 
+		\item Work directly with the VP of Technology and the CEO to define and lead product strategy.
 		\item Provide input in the design process and incorporate into overall application.
 		\item Act as DevOps to build infrastructure for apps to be developed, deployed, scaled, backed up, optimized.
 	\end{itemize}
 }
-\cventry{2011-2013}{Web Developer}{Independent Freelancer}{Chicago, IL}{USA}{
-	\begin{itemize}
-		\item Make design recommendations for clients in need of blog-like websites and CMS based on Wordpress.  
-		\item Optimize websites by various of techniques such as SEO, Images Resizing, CSS/JS minification etc. 
-		\item Review, secure and remove malware invaded websites, especially for those based on Wordpress, Zen-Cart etc.
-	\end{itemize}
-}
 
 \section{Education}
-\cventry{2011--2013}{Master of Science in Computer Science}{University of Illinois at Chicago}{Chicago,USA}{\textit{}}{ }  % arguments 3 to 6 can be left empty
+\cventry{2011--2013}{Master of Science in Computer Science}{University of Illinois at Chicago}{Chicago, USA}{\textit{}}{ }
 \cventry{2007--2011}{Bachelor of Science in Information and Computing Science}{Dalian Polytechnic University}{Dalian, P.R.China}{\textit{}}{}
 
 \section{Technical Skills}
-\cvcomputer{Languages}{PHP, Objective-C, JavaScript, HTML 5, Java}{}{}
+\cvcomputer{Languages}{PHP, JavaScript, Java}{}{}
 \cvcomputer{Databases}{MongoDB, MySQL, Redis}{}{}
 \cvcomputer{Others}{MVC, RESTful API, AWS, Git}{}{}
 
@@ -104,28 +60,5 @@
 \cvlanguage{Chinese}{Mother Tongue}{Fluent in writing, reading, speaking}
 \cvlanguage{English}{Second Language}{Fluent in writing, reading; good in speaking}
 
-%\section{Extra}
-%\cvlistitem{Item 1}
-%\cvlistitem{Item 2}
-%\cvlistitem[+]{Item 3}            % optional other symbol
-
-\renewcommand{\listitemsymbol}{-} % change the symbol for lists
-
-
-
-% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}       % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
-
+\renewcommand{\listitemsymbol}{-}
 \end{document}
-

@@ -1,4 +1,4 @@
 #!/bin/bash
-docker-machine env dev
-docker run --rm -v `pwd`:/latex soleo/latex build xshao-cv-short.tex && open xshao-cv-short.pdf
-
+docker pull soleo/latex
+docker-latex xshao-cv-short.tex && open xshao-cv-short.pdf
+cp xshao-cv-short ../site/static/resume
