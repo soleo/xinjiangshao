@@ -4,70 +4,47 @@ https://keybase.io/xinjiangshao
 
 I hereby claim:
 
-  * I am an admin of http://xinjiangshao.com
+  * I am an admin of https://www.xinjiangshao.com
   * I am xinjiangshao (https://keybase.io/xinjiangshao) on keybase.
-  * I have a public key with fingerprint C1DE 1F2A 29DF 1904 A12F  61CC 6A6E C99E 2DD1 140A
+  * I have a public key ASCYdwHWZK4WdwLTOSQxb9GA0eAST8WAOYClA5FD4V0W4go
 
 To do so, I am signing this object:
 
 {
     "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.8.18"
-        },
         "key": {
             "eldest_kid": "0101a39bad4d3e017cab6e5ec168eb1d1515e546d6bedc998e9945733330bd04e8420a",
-            "fingerprint": "c1de1f2a29df1904a12f61cc6a6ec99e2dd1140a",
             "host": "keybase.io",
-            "key_id": "6a6ec99e2dd1140a",
-            "kid": "0101a39bad4d3e017cab6e5ec168eb1d1515e546d6bedc998e9945733330bd04e8420a",
+            "kid": "0120987701d664ae167702d33924316fd180d1e0124fc5803980a5039143e15d16e20a",
             "uid": "7d0333f0212b37419512fce3303cdd19",
             "username": "xinjiangshao"
         },
         "service": {
-            "hostname": "xinjiangshao.com",
-            "protocol": "http:"
+            "hostname": "www.xinjiangshao.com",
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1442936268,
-    "expire_in": 157680000,
-    "prev": "267714ba0132def860860e6697f1329456bec27fc6aaead4927d2236e94a6c43",
-    "seqno": 5,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1484684139,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1484683973,
+        "hash": "16cd7544ecefa046a114f99b1cb6559bfa860dcf15eae1faee56afdbd4d29d4f13f709a6c56beb1ac34eb932e07f50a518e4a5012c43f0cef2299b542fdcab35",
+        "seqno": 803795
+    },
+    "prev": "8ba33c8e2ac7775c73ca94402d4b29bbc23d9ab545f21cb3260183b907f89f08",
+    "seqno": 26,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Comment: GPGTools - https://gpgtools.org
-
-owGtkmtMFFcYhrl1kwWhogSBXpBpIdy6mTMzOztDURtTRKGgtIbGtHEzl7PLsDiz
-7C4LFLBgBAJEY9VK2gLqmopg0RREUSlYiaUbaGqD8VKMSAqbbiu2aFukK7VnCE3a
-xJ89mR+T8z3f+73nPWdfaKBfsH+h7G575buIYP8RL++X718yWoHxiliOpVVgQpEE
-ZYf6J3M7IJaGWWA5z9mhTlJWy4oIdYX21UtMKuaENrukyIjCdYwOMFhVqsqr3bBI
-hHaH0SKJahXggCNZnhMpkYQ4MAgcT0M9FADNQB6IQA/0UE/RIs1DUWBZBrIspTeQ
-aOG8iFOQoQicQwNNkmyGNqtNUi1iAhAhMBEcwYomwOIUBwgTDQSB5miIVCAhigBQ
-i40Fit3xn8Ngi06Ni/aewv/PvksW5QwijiomnAAETxoowOqRYQEimBTQaFYF7dC2
-FHyZJBdKnGy2F3CKGiyqOCUBquGqp3kKpROUHUjDalMciqAUoWqBw2FNU5sd5VaV
-LoW8cUnHyEuyKMmHzf++R4BQwSGpyoCiCJakCZpJxWCZVbJBo6QSegPN4Gipc6AT
-aRK0wQAonsMBSYjQxNA4+iBNswYT2kF5oHAEwmBC18JBlCRLGESCIGnIUhwtUCSm
-Hq1YVrA0PfLJmZGkXTLLnKPEBrGqhoDng/z8g/00zwSoD9UvWLv8n9f75/1nH2t3
-lUWu8G7Pmbl1OLXg4e1L4f0vn+gJGT86c+RYY2nn8uufXEg+E9f/hTaN/nH8vbez
-TjyYrhr8dr2vz7PHuTZnofmK/iv7hvnCks7NEVe7e5eNrcrunVjjIR9f0yZlzlS3
-THXz7gbhw8mP959X5sIT2k81bWr3eXcxnXkT/s0vXgsr1H2ZPP7qhf5o5Wz7UErW
-0HpQe9n9Qf3uOe85q4lN35/6ZhFRtzlbxNiwxvrJyIrMtiunP4t+dPViyUBWzpnA
-Iz7XD7mJlzY+cU/FDqeP9ewRbo46D1GdoT3l57q2HhjUrmlc9QJ/4E7lZB1b7U0g
-XUO8JyM/vIdpMuYmr/t1sC3g+/hwS2RK3s+Bd/pc12+MZm67FXey9dBscW3L2ujL
-D7TdtZNvzXkDoj7fvvDXyUcKflvQVA5NdFN72b6D47l7pydrpERL0af5mtiGU8sy
-GM9WyhdXFxNU05qy8Lt57EZN6B9vHP3l/j7w+vtaTVNHvRT/WtcxZ7M7fkuiSVNd
-ejfHN9/aH7Qy+CDz8KcQ10hIPtZgPD488NsK7d2o6ediJJ1gcceGT5VtStqYkecp
-zh5w7yQ7LBeTKr09p590w2jPyogUkFea8M5uoqYvOr0jw7Whxj0Skxs1Hbnto2+m
-ZyNye9+dDWvZopkPDLn39fmzQgDpPe4b3Ykr6+691OXKuRk6/Dc=
-=HpnP
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmHcB1mSuFncC0zkkMW/RgNHgEk/FgDmApQORQ+FdFuIKp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTM5YmFkNGQzZTAxN2NhYjZlNWVjMTY4ZWIxZDE1MTVlNTQ2ZDZiZWRjOTk4ZTk5NDU3MzMzMzBiZDA0ZTg0MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTg3NzAxZDY2NGFlMTY3NzAyZDMzOTI0MzE2ZmQxODBkMWUwMTI0ZmM1ODAzOTgwYTUwMzkxNDNlMTVkMTZlMjBhIiwidWlkIjoiN2QwMzMzZjAyMTJiMzc0MTk1MTJmY2UzMzAzY2RkMTkiLCJ1c2VybmFtZSI6InhpbmppYW5nc2hhbyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LnhpbmppYW5nc2hhby5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NDY4NDEzOSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg0NjgzOTczLCJoYXNoIjoiMTZjZDc1NDRlY2VmYTA0NmExMTRmOTliMWNiNjU1OWJmYTg2MGRjZjE1ZWFlMWZhZWU1NmFmZGJkNGQyOWQ0ZjEzZjcwOWE2YzU2YmViMWFjMzRlYjkzMmUwN2Y1MGE1MThlNGE1MDEyYzQzZjBjZWYyMjk5YjU0MmZkY2FiMzUiLCJzZXFubyI6ODAzNzk1fSwicHJldiI6IjhiYTMzYzhlMmFjNzc3NWM3M2NhOTQ0MDJkNGIyOWJiYzIzZDlhYjU0NWYyMWNiMzI2MDE4M2I5MDdmODlmMDgiLCJzZXFubyI6MjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAlrCYeC1LD+0W7UsM4QZsNESEwIww9TgNnNrHIn/Igqrsg2ohBKUMAO2mH94nhlah3/J8aPRwFKWW4jo0v2aCDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOu5IML4cNRhELrgE0spT/eRYre4bBQFxdSpFXJ9KjATo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
