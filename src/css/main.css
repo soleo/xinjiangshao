@@ -1,15 +1,17 @@
 * {
-    line-height: 1.2;
+    line-height: 1.5;
     margin: 0;
+    padding: 0;
 }
 
 html, body {
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
     background-color: #282a36;
     color: #eff0eb;
-    font-weight: 100;
+    font-weight: 200;
     height: 100vh;
     margin: 0;
+    font-size: 16px;
 }
 
 .full-height {
@@ -24,21 +26,30 @@ html, body {
 
 h1 {
     color: #5af78e;
-    font-size: 2em;
+    font-size: 3rem;
     font-weight: 400;
 }
 
-a, a:hover, a:focus, a:active, a:visited {
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
     color: #57c7ff;
     transition: color 0.2s;
-    border-bottom: 1px dotted;
+    border-bottom: 0.1rem dotted;
     text-decoration: none;
     letter-spacing: .1rem;
 }
 
+a:focus {
+    outline: 0.1rem solid #f3f99d;
+    outline-offset: 0.1rem;
+}
+
 a:hover{
     color: #f3f99d;
-    border-bottom: 1px solid;
+    border-bottom: 0.1rem solid;
 }
 
 .text-center {
@@ -51,14 +62,12 @@ a:hover{
 
 .intro .intro__headshot {
     position: relative;
-    width: 10em;
-    height: 10em;
-    border-radius: 5em;
-    padding: 0.25em;
-    border: 0.25em dashed #57c7ff;
-    margin: auto;
-    margin-bottom: 2.5em;
-    margin-top: 4em;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 0.25rem;
+    border: 0.25rem dashed #57c7ff;
+    margin: 4rem auto 2.5rem auto;
 }
 
 .intro .intro__headshot img {
@@ -68,6 +77,7 @@ a:hover{
     border: 0;
     max-width: 100%;
     filter: grayscale(100%);
+    transition: all 0.3s;
 }
 
 .intro .intro__headshot img:hover {
@@ -75,13 +85,13 @@ a:hover{
 }
 
 .intro .intro__description {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    padding-left: 4em;
-    padding-right: 4em;
-    padding-bottom: 5em;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
     text-align: center;
-    max-width: 20em;
+    max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -89,18 +99,19 @@ a:hover{
 .intro .intro__public-communication {
 	list-style: none;
 	text-align: center;
-	padding-bottom: 1em;
+	padding-bottom: 1rem;
 }
 
 .social__links {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
 }
 
 .social__links svg {
-    width: 3em;
-    height: 3em;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
 }
 
 .social__links svg:hover {
@@ -144,16 +155,16 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
 }
 
 .intro__nav-container ul {
-    margin: 0 auto 2em auto;
+    margin: 0 auto 2rem auto;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
 .intro__nav-container ul li {
-    margin-right: 1em;
+    margin-right: 1.4rem;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.4rem;
     font-weight: 400;
     display: inline-block;
 }
@@ -169,63 +180,42 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
 }
 
 .page {
-    font-size: 1.3em;
-    margin-top: 1em;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    max-width: 35em;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 35rem;
 }
 
 .page h1 {
-    border-bottom: 1px dotted;
-    padding-bottom: 0.3em;
-    margin-bottom: 1em;
+    border-bottom: 0.1rem dotted;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
 }
 
 .page p {
-    padding-bottom: 1em;
-    line-height: 1.7em;
+    padding-bottom: 1rem;
 }
 
 .page nav {
-    padding-bottom: 1em;
-    margin-top: 2.5em;
+    padding-bottom: 1rem;
+    margin-top: 2.5rem;
 }
 
 .projects ul li {
     text-align: left;
-    padding-bottom: 1.3em;
+    padding-bottom: 1.3rem;
 }
 
 @media only screen and (max-width: 450px) {
-
-    h1 {
-        font-size: 1.5em;
-        margin: 0 0 0.3em;
-    }
-
-    .intro .intro__description {
-        font-size: 1.5em;
-        line-height: 1.5;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 1em;
-        text-align: center;
-    }
-
-    .intro__nav-container {
-        border-top: 1px dashed;
-        padding-top: 1em;
-    }
-
     .intro__nav-container ul li {
-        margin-right: 1em;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 400;
         display: block;
-        padding-bottom: 1.5em;
+        padding-bottom: 1.5rem;
+        margin: 0 auto;
     }
 
     .intro__nav-container li:after {
@@ -234,11 +224,11 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
     }
 
     .social__links svg {
-        width: 2.9em;
-        height: 2.9em;
+        width: 2rem;
+        height: 2rem;
     }
 
     .page {
-        margin-top: 1em;
+        margin-top: 1rem;
     }
 }

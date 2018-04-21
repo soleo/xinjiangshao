@@ -3,21 +3,23 @@ import path from "path";
 
 export default {
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file?name=/[hash].[ext]"
+        use: "file?name=/[hash].[ext]"
       },
       {
-        test: /\.json$/, loader: "json-loader"
+        test: /\.json$/,
+        use: "json-loader"
       },
       {
-        loader: 'babel',
         test: /\.js?$/,
         exclude: /node_modules/,
-        query: {
-          presets: ['es2015'],
-          cacheDirectory: true
+        use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['env']
+            }
         }
       }
     ]
