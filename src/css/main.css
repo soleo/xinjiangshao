@@ -15,12 +15,14 @@ html, body {
 }
 
 .full-height {
+    height: 100%;
     height: 100vh;
+    min-height: 62rem;
 }
 
 .flex-center {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -57,17 +59,17 @@ a:hover{
 }
 
 .intro {
-    flex: 1;
+    flex-direction: column;
+    height: 100%;
 }
 
 .intro .intro__headshot {
-    position: relative;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     padding: 0.25rem;
     border: 0.25rem dashed #57c7ff;
-    margin: 4rem auto 2.5rem auto;
+    margin: 3rem auto;
 }
 
 .intro .intro__headshot img {
