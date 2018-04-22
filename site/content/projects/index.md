@@ -10,8 +10,11 @@ tags: ["project"]
 
 # Projects
 
-- [App: Fancy Foodie](/projects/fancy-foodie-app)
-- [WebFont: BF Tiny Hand](/projects/bf-tiny-hand-font)
+- iOS App: Fancy Foodie
+    - [Homepage](https://fancy-foodie.com)
+    - Language: Objective-C
+- WebFont: BF Tiny Hand
+    - [GitHub Repo](https://github.com/soleo/font-BFTinyHand)
 - CLI: GMail Attachments Export Tool
 - CLI: Paycheckrecord Export Tool
 - Docker: LaTeX 
