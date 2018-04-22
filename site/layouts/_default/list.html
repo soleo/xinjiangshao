@@ -6,7 +6,12 @@
             <a href="/">Home</a>
         </nav>
 
-        {{ .Content }}
+        <!-- Ranges through content/post/*.md -->
+        {{ range .Data.Pages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+            </li>
+        {{ end }}
     </article>
 </main>
 
