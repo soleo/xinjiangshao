@@ -1,35 +1,59 @@
 {{ partial "header" . }}
 
 <main class="full-height">
-    <section class="intro flex-center">
-        <div class="intro__headshot">
-            <img src="/img/photo-of-xinjiang.png" alt="Headshot of Xinjiang Shao" id="profile-photo"/>
-        </div>
+    <article class="intro flex-center">
+        <p class="intro__headshot">
+            <img src="/img/photo-of-xinjiang.png" alt="Headshot of me" id="profile-photo" />
+        </p>
 
-        <p class="intro__description">Hello, World! My name is <strong>Xinjiang Shao</strong>, currently working as a Full Stack Developer at <a href="https://www.peapod.com">Peapod</a>, previously at <a href="https://exactsports.com">EXACT Sports</a>, and on the team of building <a href="https://prephero.com">PrepHero</a>. </p>
+        <p class="intro__description">
+            <strong>Xinjiang Shao</strong> is
+            currently working as a Front End Developer at
+            <a href="https://www.peapoddigitallabs.com/" rel="noopener">Peapod Digital Labs</a>,
+            previously he was at <a href="https://www.peapod.com" rel="noopener">Peapod</a> and
+            <a href="https://exactsports.com" rel="noopener">EXACT Sports</a>,
+            and he was on the team of building <a href="https://prephero.com" rel="noopener">PrepHero</a>.
+        </p>
 
-        <ul class="intro__public-communication">
-            <li>E-Mail: <a href="mailto:shaoxinjiang@gmail.com">shaoxinjiang@gmail.com</a></li>
-            <li>PGP Public Key: <a href="https://raw.githubusercontent.com/soleo/dotfiles/master/public.key">C1DE 1F2A 29DF 1904 A12F  61CC 6A6E C99E 2DD1 140A</a></li>
-        </ul>
+        <p class="intro__description">
+            The dude who works as a <em>software engineer</em>,
+            dreams about being a <em>chef</em>,
+            and tries to design pleasant <em>things</em>.
+        </p>
+
+        <p class="intro__description">
+            While I'm not coding,
+            I like reading as often as possible,
+            writing occasionally,
+            drawing randomly,
+            cooking creatively,
+            running regularly.
+        </p>
+
+        <p>
+            <ul class="intro__public-communication">
+                <li>E-Mail: <a href="mailto:shaoxinjiang@gmail.com">shaoxinjiang@gmail.com</a></li>
+                <li>PGP Public Key: <a href="https://raw.githubusercontent.com/soleo/dotfiles/master/public.key">C1DE 1F2A 29DF 1904 A12F  61CC 6A6E C99E 2DD1 140A</a></li>
+            </ul>
+        </p>
 
         <div class="social__links">
-            <a href="https://github.com/soleo" class="social__link">
+            <a href="https://github.com/soleo" rel="noopener" class="social__link">
                 {{ template "svg/GitHub.svg" . }}
             </a>
-            <a href="https://www.instagram.com/soleoshao" class="social__link">
+            <a href="https://www.instagram.com/soleoshao" rel="noopener" class="social__link">
                 {{ template "svg/Instagram.svg" . }}
             </a>
-            <a href="https://medium.com/@soleoshao" class="social__link">
+            <a href="https://medium.com/@soleoshao" rel="noopener" class="social__link">
                 {{ template "svg/Medium.svg" . }}
             </a>
-            <a href="https://twitter.com/soleoshao" class="social__link">
+            <a href="https://twitter.com/soleoshao" rel="noopener" class="social__link">
                 {{ template "svg/Twitter.svg" . }}
             </a>
-            <a href="https://www.linkedin.com/in/xinjiangshao" class="social__link">
+            <a href="https://www.linkedin.com/in/xinjiangshao" rel="noopener" class="social__link">
                 {{ template "svg/LinkedIn.svg" . }}
             </a>
-            <a href="https://society6.com/xinjiangshao" class="social__link">
+            <a href="https://society6.com/xinjiangshao" rel="noopener" class="social__link">
                 {{ template "svg/Society6.svg" . }}
             </a>
         </div>
@@ -37,20 +61,20 @@
         <nav class="intro__nav-container">
             <ul>
                 <li>
-                    <a href="https://glitch.com/@soleo">Labs</a>
+                    <a href="https://glitch.com/@soleo" rel="noopener">Labs</a>
                 </li>
                 <li>
                     <a href="/projects">Projects</a>
                 </li>
                 <li>
-                    <a href="https://github.com/soleo/awesome-reading">Reading List</a>
+                    <a href="https://github.com/soleo/awesome-reading" rel="noopener">Reading List</a>
                 </li>
                 <li>
                     <a href="/about">Résumé</a>
                 </li>
             </ul>
         </nav>
-    </section>
+    </article>
 </main>
 
 {{ partial "footer" . }}

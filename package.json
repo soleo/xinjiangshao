@@ -4,7 +4,7 @@
   "description": "Xinjiang's Personal Website Built with Hugo, PostCSS, ES6 and Netlify",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/soleo/soleo.github.io.git",
+    "url": "https://github.com/soleo/xinjiangshao.com.git",
     "type": "git"
   },
   "author": "Xinjiang Shao",
