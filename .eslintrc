@@ -23,6 +23,7 @@ ecmaFeatures:
   spread: true
   templateStrings: true
 
+
 rules:
   # Possible Errors
   # https://github.com/eslint/eslint/tree/master/docs/rules#possible-errors

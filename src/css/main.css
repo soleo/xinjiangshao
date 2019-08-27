@@ -15,8 +15,6 @@ html, body {
 }
 
 .full-height {
-    height: 100%;
-    height: 100vh;
     min-height: 62rem;
 }
 
@@ -96,6 +94,10 @@ a:hover{
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.intro .intro__description em {
+    color: #f3f99d;
 }
 
 .intro .intro__public-communication {
