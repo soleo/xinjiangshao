@@ -1,5 +1,5 @@
 ---
-title: Projects by Xinjiang 
+title: Projects by Xinjiang
 description: A summary of Xinjiang's past and current working on projects
 date: "2016-11-25"
 categories:
@@ -17,7 +17,7 @@ tags: ["project"]
     - [GitHub Repo](https://github.com/soleo/font-BFTinyHand)
 - CLI: GMail Attachments Export Tool
 - CLI: Paycheckrecord Export Tool
-- Docker: LaTeX 
+- Docker: LaTeX
 - Shell: Dotfiles
 - Docker: DuckPan
 - DuckDuckGo: Instance Answer for Cocoapods

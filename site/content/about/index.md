@@ -1,5 +1,5 @@
 ---
-title: About Xinjiang 
+title: About Xinjiang
 description: An introduction of Xinjiang's past
 date: "2016-11-26"
 categories:
@@ -22,7 +22,7 @@ You could download my [Résumé](https://www.xinjiangshao.com/resume/xshao-cv-sh
 
 ## Longer version
 
-Hey, 
+Hey,
 
 I'm Xinjiang. A name that is directly coming from [PinYin](https://en.wikipedia.org/wiki/Pinyin) of my Chinese name. Most people would have some degree of difficulty to pronounce my name. My previous supervisor Ed Grosvenor won't be able to pronounce it, and the my current colleagues in Peapod definitely still try to figure it out. In the digital world, I usually call myself soleo. A word coming from nowhere, but it is pretty cool name.
 
