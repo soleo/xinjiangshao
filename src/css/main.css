@@ -210,9 +210,25 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
     padding-bottom: 1rem;
 }
 
-.page nav {
+nav {
     padding-bottom: 1rem;
     margin-top: 2.5rem;
+}
+.blog {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.blog img {
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+
+.blog p {
+    padding-bottom: 1rem;
 }
 
 .projects ul li {
@@ -244,3 +260,4 @@ svg #LinkedIn #Shape, svg:hover #LinkedIn #Shape{
         margin-top: 1rem;
     }
 }
+

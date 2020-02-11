@@ -1,9 +1,11 @@
 {{ partial "header" . }}
-
+<nav class="text-center">
+    <a href="/">Home</a>
+</nav>
 <section id="main">
-    <h1 id="title">{{ .Title }}</h1>
+    <h1 id="title" class="text-center">{{ .Title }}</h1>
     <div>
-        <article id="content">
+        <article id="content" class="full-width blog">
             {{ .Content }}
         </article>
     </div>
@@ -17,14 +19,14 @@
         {{ with .Params.topics }}
         <ul id="topics">
             {{ range . }}
-            <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
+            <li><a href="{{ "topics/" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
             {{ end }}
         </ul>
         {{ end }}
         {{ with .Params.tags }}
         <ul id="tags">
             {{ range . }}
-            <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
+            <li> <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
             {{ end }}
         </ul>
         {{ end }}
