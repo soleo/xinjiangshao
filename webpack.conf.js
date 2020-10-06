@@ -1,7 +1,5 @@
 import webpack from "webpack";
 import path from "path";
-import "babel-polyfill";
-
 export default {
   module: {
     rules: [
@@ -33,7 +31,7 @@ export default {
 
   context: path.join(__dirname, "src"),
   entry: {
-    app: ["babel-polyfill", "./js/app"]
+    app: ["./js/app"]
   },
   output: {
     path: path.join(__dirname, "dist"),
