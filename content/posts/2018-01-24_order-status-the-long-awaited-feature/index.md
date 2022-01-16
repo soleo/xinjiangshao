@@ -14,7 +14,10 @@ tags:
  - Food Delivery
  - Analysis
 
-image: "/posts/2018-01-24_order-status-the-long-awaited-feature/images/1.png" 
+cover:
+    image: "/posts/2018-01-24_order-status-the-long-awaited-feature/images/1.png"
+    relative: true
+
 images:
  - "/posts/2018-01-24_order-status-the-long-awaited-feature/images/1.png"
  - "/posts/2018-01-24_order-status-the-long-awaited-feature/images/2.png"
@@ -30,11 +33,6 @@ aliases:
     - "/order-status-the-long-awaited-feature-a2ff6054d227"
 
 ---
-
-![image](/posts/2018-01-24_order-status-the-long-awaited-feature/images/1.png#layoutFillWidth)
-
-iOS Push Notification for Order Status
-
 
 It
  has been quite a journey since we released Order Status, a feature that will allow our customers to check their order details on delivery day, get updates about their order via push notifications in both Android and iOS app, and receive an email with invoice pdf attachment when the order is packed.

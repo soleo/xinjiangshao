@@ -1,6 +1,10 @@
 ---
 title: "SEO: The Secret Sauce for Making Online Grocery Shopping Popular"
+author: "Xinjiang Shao"
 date: 2021-11-08T22:45:17-06:00
+cover:
+    image: "/posts/2021-11-8-seo-the-secret-sauce-for-making-online-grocery-shopping-popular/images/cover.jpg"
+    relative: true
 tags:
  - Search Engine Optimization
  - SEO
