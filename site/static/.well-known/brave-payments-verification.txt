@@ -1,4 +1,0 @@
-This is a Brave Payments publisher verification file.
-
-Domain: xinjiangshao.com
-Token: 4df94115c37ba0b59e5030e320ea6b7c5ef17c571339610fcaef07676d31b6ab

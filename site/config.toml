@@ -1,8 +1,0 @@
-baseurl = "https://www.xinjiangshao.com/"
-languageCode = "en-us"
-title = "Xinjiang Shao"
-metaDataFormat = "yaml"
-
-[params]
-    description = "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
-    author = "Xinjiang Shao"
