@@ -63,8 +63,8 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
+      - name: Archive
+        url: "/archives/"
       - name: Tags
         url: tags
 
@@ -121,6 +121,10 @@ menu:
       name: TAGS
       url: /tags/
       weight: 20
+    - identifier: search
+      name: SEARCH
+      url: /search/
+      weight: 21
     - identifier: about
       name: ABOUT ME
       url: /about/
