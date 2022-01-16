@@ -1,7 +1,0 @@
-#!/bin/bash -exv
-
-docker pull soleo/latex
-
-docker-latex xshao-cv-short.tex
-
-cp xshao-cv-short.pdf ../site/static/resume

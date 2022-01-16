@@ -2,6 +2,9 @@ node_modules/
 dist/
 .DS_Store
 
+*.cache
+*.lock
+public/
 *.log
 *.out
 *.aux
