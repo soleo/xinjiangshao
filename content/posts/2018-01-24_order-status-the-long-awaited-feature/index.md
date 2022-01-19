@@ -16,7 +16,7 @@ tags:
 
 cover:
     image: "/posts/2018-01-24_order-status-the-long-awaited-feature/images/1.png"
-    relative: true
+    relative: false
 
 images:
  - "/posts/2018-01-24_order-status-the-long-awaited-feature/images/1.png"
