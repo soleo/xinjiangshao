@@ -65,7 +65,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "Xinjiang Shao"
     subtitle: "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
-    imageUrl: "/photo-of-xinjiang.png"
+    imageUrl: "/profile_square.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
