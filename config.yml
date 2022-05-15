@@ -65,10 +65,10 @@ params:
     enabled: true # needs to be explicitly set
     title: "Xinjiang Shao"
     subtitle: "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
-    imageUrl: "/profile_square.jpg"
+    imageUrl: "/profile_xinjiang.png"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: Xinjiang Shao Headshot
     buttons:
       - name: Archive
         url: "/archives/"
