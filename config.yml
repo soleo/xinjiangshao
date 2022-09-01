@@ -64,11 +64,11 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Xinjiang Shao"
-    subtitle: "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
+    subtitle: "The dude who works as a software engineer, dreams about being a chef, and tries to design pleasant things."
     imageUrl: "/profile_xinjiang.png"
     imageWidth: 400
     imageHeight: 400
-    imageTitle: Xinjiang Shao Headshot
+    imageTitle: Xinjiang Shao
     buttons:
       - name: Archive
         url: "/archives/"
@@ -100,7 +100,7 @@ params:
 
   cover:
     hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
+    hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
     responsiveImages: true
     linkFullImages: true
