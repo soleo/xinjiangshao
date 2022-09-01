@@ -16,7 +16,7 @@ This is Xinjiang, a.k.a @soleo. I'm currently working as a principal software en
 
 While I'm not coding, I like **reading** as often as possible, **writing** occasionally, **drawing** randomly, **cooking** creatively, **running** regularly.
 
-If you are interested in working with me, feel free to checkout my [Résumé](/Re%CC%81sume%CC%81_Xinjiang_Shao_Public.pdf "Xinjiang Shao Résumé"), and reach out to me via Email.
+If you are interested in working with me, feel free to checkout my [Résumé](/xinjiang-shao-public.pdf "Xinjiang Shao Résumé"), and reach out to me via Email.
 
 
 ## The Much Longer Version of My Story
