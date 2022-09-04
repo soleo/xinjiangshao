@@ -1,23 +1,20 @@
 ---
-title: "About Me"
-date: 2022-01-15T22:00:30-06:00
-author: "Xinjiang Shao"
-draft: false
+title: About Me
+date: 2022-01-15T22:00:30.000-06:00
+author: Xinjiang Shao
+
 ---
-
-
 # What's My story?
 
 ## TL;DR
 
 Hey, there
 
-This is Xinjiang, a.k.a @soleo. I'm currently working as a principal software engineer at [Peapod Digital Labs](https://www.peapoddigitallabs.com). Previously I was a **full stack developer** for [Peapod](https://peapod.com), focusing more on the front-end side of the house at the time. I also was previously working for [EXACT Sports](https://exactsports.com) as a full stack developer. I'm pretty passionate about **building a better product** for end users.
+This is Xinjiang, a.k.a @soleo. I'm currently working as a principal software engineer at [Peapod Digital Labs](https://www.peapoddigitallabs.com). Previously I was a **Senior Software Engineer** at [Peapod](https://peapod.com), focusing more on the front-end side of the house at the time. I also was previously working for [EXACT Sports](https://exactsports.com) as a full stack developer. I'm pretty passionate about **building a better product** for end users.
 
 While I'm not coding, I like **reading** as often as possible, **writing** occasionally, **drawing** randomly, **cooking** creatively, **running** regularly.
 
 If you are interested in working with me, feel free to checkout my [Résumé](/xinjiang-shao-public.pdf "Xinjiang Shao Résumé"), and reach out to me via Email.
-
 
 ## The Much Longer Version of My Story
 
