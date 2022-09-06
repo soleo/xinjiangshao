@@ -10,11 +10,11 @@ author: Xinjiang Shao
 
 Hey, there
 
-This is Xinjiang, a.k.a @soleo. I'm currently working as a principal software engineer at [Peapod Digital Labs](https://www.peapoddigitallabs.com). Previously I was a **Senior Software Engineer** at [Peapod](https://peapod.com), focusing more on the front-end side of the house at the time. I also was previously working for [EXACT Sports](https://exactsports.com) as a full stack developer. I'm pretty passionate about **building a better product** for end users.
+This is **Xinjiang**, a.k.a @soleo in social media. I'm currently working as a **Principal Software Engineer** at [Peapod Digital Labs](https://www.peapoddigitallabs.com). Previously I was a **Software Engineer** at [Peapod](https://peapod.com), focusing more on the front-end side of the house at the time. I also was previously working for [EXACT Sports](https://exactsports.com) as a **Full Stack Software Engineer**. I'm pretty passionate about **building a better product** for end users.
 
-While I'm not coding, I like **reading** as often as possible, **writing** occasionally, **drawing** randomly, **cooking** creatively, **running** regularly.
+While I'm not coding, I like **reading** as often as possible, **writing** occasionally, **drawing** randomly, **cooking** creatively, and **running** regularly.
 
-If you are interested in working with me, feel free to checkout my [Résumé](/uploads/xinjiang-shao-public.pdf "Xinjiang Shao Résumé"), and reach out to me via Email.
+If you are interested in working with me, feel free to check out my [Résumé](/uploads/xinjiang-shao-public.pdf "Xinjiang Shao Résumé"), or reach out to me via Email directly. My email address is the full spelling of my first name and last name at gmail dot com. 
 
 ## The Much Longer Version of My Story
 
