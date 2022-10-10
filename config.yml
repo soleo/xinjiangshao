@@ -1,7 +1,9 @@
 baseURL: "https://xinjiangshao.com/"
 title: Xinjiang Shao
 paginate: 5
-theme: PaperMod
+theme:
+- PaperMod
+- "hugo-shortcode-gallery"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -22,6 +24,11 @@ outputs:
 
 
 params:
+  galleryRowHeight    : 200
+  galleryMargins      : 10
+  galleryResizeOptions: "800x800 q88 Lanczos"
+  galleryPreviewType  : "blur"
+  galleryThumbnailHoverEffect : "enlarge"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Xinjiang Shao
   description: "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
@@ -123,19 +130,23 @@ params:
 menu:
   main:
     - identifier: posts
-      name: POSTS
+      name: Posts
       url: /posts/
       weight: 10
+    - identifier: photography
+      name: Photography
+      url: /photography/best-of-a-decade/
+      weight: 11
     - identifier: tags
-      name: TAGS
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: search
-      name: SEARCH
+      name: Search
       url: /search/
       weight: 21
     - identifier: about
-      name: ABOUT ME
+      name: About
       url: /about/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
@@ -147,3 +158,8 @@ menu:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+
+
+imaging.exif:
+    includeFields : ".*"
