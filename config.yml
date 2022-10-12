@@ -33,7 +33,7 @@ params:
   title: Xinjiang Shao
   description: "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
   keywords: [Blog, Portfolio, Software Engineer]
-  author: Me
+  author: "Xinjiang Shao"
   # author: ["Me", "You"] # multiple authors
   images: ["https://xinjiangshao.com/photo-of-xinjiang.png"]
   DateFormat: "January 2, 2006"
@@ -47,7 +47,7 @@ params:
   ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -77,10 +77,12 @@ params:
     imageHeight: 400
     imageTitle: Xinjiang Shao
     buttons:
-      - name: Archive
-        url: "/archives/"
       - name: Tags
         url: tags
+      - name: Slides
+        url: https://slides.com/xinjiangshao
+      - name: Newsletter
+        url: https://soleo.substack.com/
 
   # home-info mode
   homeInfoParams:
@@ -129,18 +131,14 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: blog
+      name: Blog
+      url: /archives/
       weight: 10
     - identifier: photography
       name: Photography
       url: /photography/best-of-a-decade/
       weight: 11
-    - identifier: newsletter
-      name: Newsletter
-      url: https://soleo.substack.com/
-      weight: 12
     - identifier: search
       name: Search
       url: /search/
