@@ -12,7 +12,7 @@ jobs:
         with:
           submodules: true
       - name: Setup Hugo
-        uses: soleo/actions-hugo@feature-upgrade-to-node16
+        uses: soleo/actions-hugo@v3.0.0
         with:
           hugo-version: 'latest'
       - name: Build
