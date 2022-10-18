@@ -19,6 +19,10 @@ jobs:
           hugo-version: 'latest'
       - name: Build
         run: hugo --minify
+       # Temporarily downgrade to `firebase-tools@11.14.1` because of a bug in `v11.14.4`.
+      # See: https://github.com/firebase/firebase-tools/issues/5072
+      # Do not use `--global` flag when installing because the `actions-hosting-deploy` action will not pick it up.
+      - run: npm install firebase-tools@11.14.1
       - uses: soleo/action-hosting-deploy@feature-upgrade-to-node16
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
