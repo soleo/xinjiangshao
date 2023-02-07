@@ -35,7 +35,7 @@ params:
   keywords: [Blog, Portfolio, Software Engineer]
   author: "Xinjiang Shao"
   # author: ["Me", "You"] # multiple authors
-  images: ["https://xinjiangshao.com/photo-of-xinjiang.png"]
+  images: ["/profile_xinjiang.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -71,10 +71,10 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Xinjiang Shao"
-    subtitle: "The dude who works as a software engineer, dreams about being a chef, and tries to design pleasant things."
-    imageUrl: "/profile_xinjiang.png"
-    imageWidth: 400
-    imageHeight: 400
+    subtitle: "Software engineer by day, aspiring chef by night. Fueled by a passion for design and cooking, Xinjiang Shao creates and designs both code and cuisine."
+    imageUrl: "profile_xinjiang.png"
+    imageWidth: 300
+    imageHeight: 300
     imageTitle: Xinjiang Shao
     buttons:
       - name: Tags
@@ -87,7 +87,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "Xinjiang Shao is currently working as a Senior Software engineer at Peapod Digital Labs, previously he was at Peapod and EXACT Sports, and he was on the team of building PrepHero. The dude who works as a software engineer, dreams about being a chef, and tries to design pleasant things. While I'm not coding, I like reading as often as possible, writing occasionally, drawing randomly, cooking creatively, running regularly."
+    Content: "Coding by day, conjuring culinary creations by night, Xinjiang Shao is a software engineer who fuels his creativity with an eye for design and a passion for cooking. In his free time, he brings his dreams to life in the kitchen, crafting delicious dishes and seeking out new and imaginative ways to design pleasant things."
 
   socialIcons:
     - name: twitter
