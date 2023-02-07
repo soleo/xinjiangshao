@@ -31,7 +31,7 @@ params:
   galleryThumbnailHoverEffect : "enlarge"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Xinjiang Shao
-  description: "Xinjiang Shao is a Senior Software Enigneer living in Chicago, IL"
+  description: "Coding by day, conjuring culinary creations by night, Xinjiang Shao is a software engineer who fuels his creativity with an eye for design and a passion for cooking. In his free time, he brings his dreams to life in the kitchen, crafting delicious dishes and seeking out new and imaginative ways to design pleasant things."
   keywords: [Blog, Portfolio, Software Engineer]
   author: "Xinjiang Shao"
   # author: ["Me", "You"] # multiple authors
