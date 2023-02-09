@@ -46,6 +46,7 @@ languages:
         languageName: ":zh:"
         languageAltTitle: Chinese
         weight: 2
+        title: PaperModL2
         taxonomies:
           category: ZHcategories
           tag: ZHtags
@@ -76,13 +77,6 @@ languages:
           imageWidth: 300
           imageHeight: 300
           imageTitle: 邵新江
-          buttons:
-            - name: Tags
-              url: tags
-            - name: Slides
-              url: https://slides.com/xinjiangshao
-            - name: Newsletter
-              url: https://soleo.substack.com/
 
 outputs:
     home:
