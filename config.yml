@@ -98,6 +98,8 @@ params:
       url: "https://www.instagram.com/soleoshao/"
     - name: linkedin
       url: "https://www.linkedin.com/in/xinjiangshao/"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/soleo"
 
   analytics:
     google:
