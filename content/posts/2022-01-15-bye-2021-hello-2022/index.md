@@ -2,33 +2,27 @@
 title: "Bye 2021, Hello 2022"
 author: "Xinjiang Shao"
 date: 2022-01-15T23:23:02-06:00
-draft: true
 ---
 
-## The Beginning & The end
+# The Beginning & The end
 
-## Old Things for 2021
-First Times
-Moved from Chicago to Suburbs
-Run 50% of the days 
-Bake Sourdough bread
-Get Driver's License and Buy A Car
-A day looks like for myself
-Restart Blogging
+## Things I Started in 2021
 
-Things start doing more of
-CPI and ECI
-Zoom with Experts in Medical Domain and Ecomonical Domain
-Take care of mental and physical health
+- Move from Chicago to Suburbs
+- Run 50% of the days
+- Bake sourdough bread
+- Get a driver's license and buy a car
+- Video for how a day looks like as a software engineer
 
-## New Things for 2022
+## Things start doing more in 2021
 
-Get back to the basics
+- Learning Macro Encomny, e.g CPI and ECI
+- Attend zoom meetings with domain experts in the medical field and economic field
+- Take care of mental and physical health
 
-Living a sustainable life
+## New Things Wanna Try in 2022
 
-Reading 20 books this year
-
-Traveling
-
-
+- Get back to the basics with CS algorithms
+- Live a sustainable life
+- Read 20 books this year
+- Start traveling again
