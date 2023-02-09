@@ -46,6 +46,7 @@ languages:
         languageName: ":zh:"
         languageAltTitle: Chinese
         weight: 2
+        title: PaperModL2
         taxonomies:
           category: ZHcategories
           tag: ZHtags
