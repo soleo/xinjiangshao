@@ -6,7 +6,7 @@ date: 2022-01-15T23:23:02-06:00
 
 # The Beginning & The end
 
-## Things I Started in 2021
+## Things I started in 2021
 
 - Move from Chicago to Suburbs
 - Run 50% of the days
@@ -20,7 +20,7 @@ date: 2022-01-15T23:23:02-06:00
 - Attend zoom meetings with domain experts in the medical field and economic field
 - Take care of mental and physical health
 
-## New Things Wanna Try in 2022
+## New things I wanna try in 2022
 
 - Get back to the basics with CS algorithms
 - Live a sustainable life
