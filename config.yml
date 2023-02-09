@@ -16,6 +16,74 @@ minify:
   disableXML: true
   minifyOutput: true
 
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+          main:
+            - identifier: blog
+              name: Blog
+              url: /archives/
+              weight: 10
+            - identifier: photography
+              name: Photography
+              url: /photography/best-of-a-decade/
+              weight: 11
+            - identifier: search
+              name: Search
+              url: /search/
+              weight: 21
+            - identifier: about
+              name: About
+              url: /about/
+              weight: 30
+    zh:
+        languageName: ":zh:"
+        languageAltTitle: Chinese
+        weight: 2
+        taxonomies:
+          category: ZHcategories
+          tag: ZHtags
+          series: ZHseries
+        menu:
+          main:
+            - identifier: blog
+              name: 日志
+              url: /archives/
+              weight: 10
+            - identifier: photography
+              name: 摄影
+              url: /photography/best-of-a-decade/
+              weight: 11
+            - identifier: search
+              name: 搜索
+              url: /search/
+              weight: 21
+            - identifier: about
+              name: 关于
+              url: /about/
+              weight: 30
+        profileMode:
+          enabled: true # needs to be explicitly set
+          title: "邵新江"
+          subtitle: "热爱做菜·旅行·认识世界的软件工程师"
+          imageUrl: "profile_xinjiang.png"
+          imageWidth: 300
+          imageHeight: 300
+          imageTitle: 邵新江
+          buttons:
+            - name: Tags
+              url: tags
+            - name: Slides
+              url: https://slides.com/xinjiangshao
+            - name: Newsletter
+              url: https://soleo.substack.com/
+
 outputs:
     home:
         - HTML
