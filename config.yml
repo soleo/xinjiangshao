@@ -72,9 +72,9 @@ languages:
           enabled: true # needs to be explicitly set
           title: "邵新江"
           subtitle: "热爱做菜·旅行·认识世界的软件工程师"
-          imageUrl: "profile_xinjiang.png"
-          imageWidth: 300
-          imageHeight: 300
+          imageUrl: "xinjiangshao.svg"
+          imageWidth: 330
+          imageHeight: 330
           imageTitle: 邵新江
 
 outputs:
@@ -133,9 +133,9 @@ params:
     enabled: true # needs to be explicitly set
     title: "Xinjiang Shao"
     subtitle: "Software engineer by day, aspiring chef by night. Fueled by a passion for design and cooking, Xinjiang Shao creates and designs both code and cuisine."
-    imageUrl: "profile_xinjiang.png"
-    imageWidth: 300
-    imageHeight: 300
+    imageUrl: "xinjiangshao.svg"
+    imageWidth: 330
+    imageHeight: 330
     imageTitle: Xinjiang Shao
     buttons:
       - name: Tags
