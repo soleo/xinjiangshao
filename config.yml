@@ -1,5 +1,5 @@
 baseURL: "https://xinjiangshao.com/"
-title: Xinjiang Shao
+title: Xinjiang Shao - Software Engineer
 paginate: 5
 theme:
 - PaperMod
@@ -52,19 +52,19 @@ languages:
           series: ZHseries
         menu:
           main:
-            - identifier: blog
+            - identifier: ZHblog
               name: 日志
               url: /archives/
               weight: 10
-            - identifier: photography
+            - identifier: ZHphotography
               name: 摄影
               url: /photography/best-of-a-decade/
               weight: 11
-            - identifier: search
+            - identifier: ZHsearch
               name: 搜索
               url: /search/
               weight: 21
-            - identifier: about
+            - identifier: ZHabout
               name: 关于
               url: /about/
               weight: 30
@@ -93,7 +93,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Xinjiang Shao
   description: "Coding by day, conjuring culinary creations by night, Xinjiang Shao is a software engineer who fuels his creativity with an eye for design and a passion for cooking. In his free time, he brings his dreams to life in the kitchen, crafting delicious dishes and seeking out new and imaginative ways to design pleasant things."
-  keywords: [Blog, Portfolio, Software Engineer]
+  keywords: [coding, culinary creations, Xinjiang Shao, software engineer, creativity, design, passion, cooking, kitchen, delicious dishes, imaginative]
   author: "Xinjiang Shao"
   # author: ["Me", "You"] # multiple authors
   images: ["/profile_xinjiang.png"]
