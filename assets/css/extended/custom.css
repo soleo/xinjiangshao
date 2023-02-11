@@ -26,6 +26,6 @@
     transition: .5s;
 }
 .profile .profile_inner img:hover {
-    --f: 1.35; /* hover scale */
+    --f: 1.5; /* hover scale */
 }
   
