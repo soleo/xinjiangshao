@@ -17,8 +17,9 @@ jobs:
           hugo-version: 'latest'
       - name: Build
         run: hugo --minify
-      - uses: soleo/action-hosting-deploy@feature-upgrade-to-node16
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_XINJIANGSHAO }}'
+          expires: 30d
           projectId: xinjiangshao
