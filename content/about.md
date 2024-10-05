@@ -23,7 +23,7 @@ This is **Xinjiang**, a.k.a @soleo in social media. I'm currently working as a *
 
 While I'm not coding, I like **reading** as often as possible, **writing** occasionally, **drawing** randomly, **cooking** creatively, and **running** regularly.
 
-If you are interested in working with me, feel free to check out my [Résumé](/uploads/xinjiang-shao-public.pdf "Xinjiang Shao Résumé"), or reach out to me via Email directly. My email address is the full spelling of my first name and last name at gmail dot com.
+If you are interested in working with me, feel free to check out my [Résumé](/xshao-cv-short.pdf "Xinjiang Shao Résumé"), or reach out to me via Email directly. My email address is the full spelling of my first name and last name at gmail dot com.
 
 ### Technologies I Love & Used
 
